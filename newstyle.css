@@ -1,0 +1,982 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: Montserrat;
+}
+.bg-dark{
+    background: transparent !important;
+}
+.bg-dark.scrolled {
+    background: white !important;
+}
+.fa fa-bars{
+    font-size: 10px;
+}
+
+.emails{
+    list-style: none;
+}
+.emails li{
+    list-style: none;
+}
+.navbar-brand {
+    margin-left: 0px;
+    }
+#col{
+    display: none;
+    background: transparent;
+}
+#l1{
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 17px;
+}
+
+#l0{
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+#l2{
+    font-size:17px ;
+   
+}
+#navbarCollapse{
+
+}
+#close{
+color: white;
+display: none;
+margin: 20px;
+font-size: 30px;
+}
+#clo{
+    background:transparent;  
+top: 0;
+right: 0;
+position: absolute;;
+
+
+    
+}
+.footer-cmpt-icon img{
+    width:200px ;
+}
+
+.busine img{
+    width: 140px;
+}
+.footer-cmpt-icon{
+    font-size: 20px;
+}
+.product-crisis-down-btw-1 img{
+    display: none;
+}
+.product-crisis-down-btw-2 img{
+    display: none;
+}
+.contact-crisis-down-bottom-1 img{
+display: none;
+} 
+.product-crisis-down-bottom-2 img{
+    display: none;
+}
+#about-phone{
+    display: none;
+}
+.contain{
+    padding-top: 150px;
+ }
+ #about{
+    background: #0A70FE; 
+    
+
+}
+
+#footer{
+    background: #0A70FE;
+}
+
+.welcome{
+    border-radius: 0px 0px 0px 0px;
+    font-size: 14px;
+    background: #0A70FE;
+    
+}
+.welcome-crisis-mobile{
+    display: none;
+    visibility: hidden;
+}
+.welcome-crisis-mobile-2{
+    display: none;
+    visibility: hidden;
+}
+@media  screen and (min-width: 1400px) {
+    .welcome{
+        width: 1330px;
+        border-radius: 0px 60px 60px 0px;
+        padding-left:160px ;
+    }
+
+}
+
+@media (max-width: 600px) {
+    
+    .home-crisis img{
+        display: none;
+        visibility: hidden;
+        
+    }
+    .bin{
+           color: rgba(202, 47, 47, 0.5); 
+           font-size:19px ;
+    }
+    #navbarCollapse{
+        min-height: 700px;
+    
+    padding-top: 160px;
+    overflow:auto;
+    margin-left: -30px;
+    margin-right: -15px;
+    background: #0A70FE;
+    overflow-y: hidden;
+    }
+    .navbar-brand {
+    margin-left: -40px;
+    }
+    #close{
+    color: white;
+    display: block;
+    margin: 20px;
+    font-size: 30px;
+    }
+    #clo{
+        background:transparent;  
+    top: 0;
+    right: 0;
+    display: block;
+    position: absolute;;
+        
+    }
+    .about-side{
+        display: none;
+        }
+  
+        
+        .contain{
+            padding-top: 10px;
+        }
+        .contact-left{
+            display: none;
+        }
+  
+    .home-left{
+        background: url("./img/Hero-Image-Mobile-View.jpg");
+        background-size:cover ;
+        background-repeat: no-repeat;
+        min-width: fit-content;
+        font-size: 14px;
+        min-height: 670px;
+        font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    
+    padding-top:130px ;
+    margin-left:-18px ;
+
+    
+    }
+    .dark-overlay {
+    margin-top:-130px ;
+        width: 100%;
+        opacity: 0.8;
+            min-height: 670px;
+        background: rgba(0, 0, 0, 0.7);
+    
+      }.home-left p{
+        padding-right: 50px;
+        padding-left: 20px;
+        
+        font-weight: 900px;
+       }
+       .home-left span{
+           font-size: 13px;
+           padding-left: 10px;
+       }
+       
+    .welcome{
+        margin-top:-1px ;
+        padding-top:10px ;
+    }
+    
+}
+  /* Small devices (landscape phones) */
+
+  @media (min-width: 576px) {
+    #wq{
+   
+        color: rgba(0, 0, 0, 0.75);
+        font-size: 17px;
+       
+    }
+    .contact-crisis-down-bottom img{
+        display: none;
+    }
+    .footer-cmpt-icon{
+        margin-left: -60px;
+    }
+  
+
+    #footer li{
+        font-size: 13px;
+    }
+
+    #contact{
+        background: #0A70FE;
+        border-radius: 35px 35px 35px 35px;
+        margin: 85px;
+        margin-bottom: 0;
+        margin-top: 0;
+        padding: 30px;
+    }
+    .product-crisis-down-bottom img{
+        transform: rotate(36.52deg);
+        width: 180px;
+        margin-top: -160px;
+        /*background: white;*/
+    }
+    .product-crisis-down-bottom-2 img{
+        transform: rotate(36.52deg);
+        width: 120px;
+        margin-top: -300px;
+        margin-right: 80px;
+        /*background: white;*/
+    }
+    .home-left button{
+    
+        font-size:12px ;
+    }
+    .product-crisis-down-1 img{
+        display: none;
+    
+    }
+    .home-left p{
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 30px;
+    /* or 161% */
+    
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+    }
+    
+    .home-crisis img{
+        width: 140px;
+        margin-top: -230px;
+        padding-left: -100px;
+        
+    }
+.home{
+    margin-top:130px;
+}
+    .home-right img{
+        width: 280px;
+        height:150px;
+        background-size:contain;
+        background-repeat: no-repeat;
+        border-radius: 2%;
+        margin-top: 50px;
+            }
+            .welcome-crisis img{
+                width: 200px;
+                margin-top: -100px;
+                margin-bottom:-100px ;
+                
+                
+            }
+            .welcome-crisis-down img{
+                width: 200px;
+                margin-top: -100px;
+                margin-bottom:-190px ;
+                
+                
+            }
+        
+                    .welcome-crisis-2 img{
+                        visibility: hidden;
+                        display: none;
+                    }
+                    .bus{
+                        margin-left:90px ;
+                    }
+                    .product-crisis-down img{
+                        width: 120px;
+                        margin-top: 10px;
+                        margin-bottom: -100px;
+                    }
+                  
+                    
+}
+
+/* Medium devices (tablets) */
+
+@media (min-width: 768px) {
+    .home-left span{
+        margin-left: 16px;
+        
+    }
+   
+
+   
+    #footer li{
+    
+            font-size: 20px;
+        
+    }
+    #contact{
+        background: #0A70FE;
+        border-radius: 35px 35px 35px 35px;
+        margin: 105px;
+        padding: 30px;
+    }
+    .product-crisis-down-bottom img{
+        transform: rotate(36.52deg);
+        width: 200px;
+        margin-top: -160px;
+         /*background: white;*/
+    }
+    .product-crisis-down-bottom-2 img{
+        transform: rotate(36.52deg);
+        width: 150px;
+        margin-top: -300px;
+        margin-right: 75px;
+        /*background: white;*/
+    }
+    .bus{
+        margin-left:150px ;
+    }
+    .product-crisis-down-1 img{
+    
+        display: none;
+    
+    }
+  
+  
+    .home-left p{
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 161% */
+    
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+    }
+    .home-crisis img{
+        width: 270px;
+        margin-top: -230px;
+        
+    }
+
+    .home-right img{
+        width: 300px;
+        height: 220px;
+        background-size:contain;
+        background-repeat: no-repeat;
+        border-radius: 10%;
+        margin-top: 40px;
+            }
+        
+    .welcome-crisis img{
+        width: 270px;
+        margin-top: -200px;
+        margin-bottom:-100px ;
+        
+        
+    }
+    .welcome-crisis-down img{
+        width: 270px;
+        margin-top: -100px;
+        margin-bottom:-170px ;
+        
+        
+    }
+    .product-crisis-down img{
+        width: 180px;
+        margin-top: -140px;
+        margin-bottom:-100px ;
+        transform: rotate(36.52deg);
+        
+        
+    }
+
+            .welcome-crisis-2 img{
+                visibility: hidden;
+                display: none;
+            }
+}
+
+/* Large devices (desktops) */
+
+@media (min-width: 992px) {
+    .home-left p{
+        padding-left: 15px;
+    }
+  
+   
+    #footer li{
+        font-size: 15px;
+    }
+    #footer h4{
+        font-size: 16px;
+    }
+    #contact{
+        background: #0A70FE;
+        border-radius: 35px 0px 0px 35px;
+        margin-left: 115px;
+        margin-right: 0;
+        margin-top: 0px;
+    }
+    .product-crisis-down-bottom img{
+        transform: rotate(36.52deg);
+        width: 230px;
+        margin-top: -160px;
+         /*background: white;*/
+    }
+    .product-crisis-down-bottom-2 img{
+        transform: rotate(36.52deg);
+        width: 150px;
+        margin-top: -300px;
+        margin-right: 95px;
+        /*background: white;*/
+    }
+    .product-crisis-down-1 img{
+        display: none;
+    
+    }
+    .welcome-crisis-down img{
+        width: 300px;
+        margin-top: -200px;
+        margin-bottom:-190px ;
+        
+        
+    }
+    .bus{
+        margin-left:180px ;
+    }
+    .phone{
+    
+        width: 210px;
+        height: 400px;
+           background:url(./img/hero-2.jpeg); 
+            border-radius: 15%;
+           
+       }
+ 
+    .head-welcome h5{
+width: 152px;
+height: 31px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 31px;
+    }
+
+    .phone{
+    
+     margin-top: 20px;
+     padding: 140px;
+     height: 300px;
+        background:url(./img/hero-2.jpeg); 
+         border-radius: 15%;
+        
+         
+    }
+    
+
+    .welcome-crisis img{
+        width: 300px;
+        margin-top: -370px;
+        margin-bottom:-100px ;
+        
+        
+    }
+    .product-crisis-down img{
+        width: 250px;
+        margin-top: -180px;
+        margin-bottom:-100px ;
+        transform: rotate(-21.99deg);
+        
+        
+    }
+    .contact-crisis-down-bottom  img{
+        width: 250px;
+        display: block;
+        margin-top: -280px;
+        margin-bottom:-100px ;
+        transform: rotate(36.52deg);
+        
+        
+    }
+    .welcome-crisis-2 img{
+        visibility: hidden;
+        display: none;
+    }
+    .home-crisis img{
+        width: 300px;
+        margin-top: -230px;
+        
+    }
+    .home-left p{
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 161% */
+    
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+    }
+
+    .home-right img{
+        width: 480px;
+        height: 300px;
+       
+        background-size:contain;
+        background-repeat: no-repeat;
+        border-radius: 10%;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding-left:10px ;
+            }
+            .home-right{
+                margin-top: 10px;
+            }
+}
+
+/* Extra large devices (large desktops) */
+
+@media (min-width: 1200px) {
+    .home-left p{
+        margin-left: 1px;
+    }
+    .busine img{
+        width: 160px;
+    }
+.home{
+    margin-top: -90px;
+}
+
+    #footer h4{
+        font-size: 20px;
+    }
+    #contact{
+        background: #0A70FE;
+        border-radius: 35px 0px 0px 35px;
+        margin-left: 170px;
+        margin-right: 0;
+        margin-top: 0px;
+    }
+    .product-crisis-down-bottom img{
+        transform: rotate(36.52deg);
+        width: 250px;
+        margin-top: -160px;
+      /*background: white;*/
+        margin-bottom: -70px;
+    }
+    .contact-crisis-down-bottom img{
+        transform: rotate(36.52deg);
+        display: block;
+        width: 230px;
+        margin-top: -180px;
+         /*background: white;*/
+        margin-bottom: -190px;
+    }
+    .product-crisis-down-bottom-2 img{
+        transform: rotate(36.52deg);
+        width: 160px;
+        margin-top: -300px;
+        margin-right: 95px;
+         /*background: white;*/
+    }
+ 
+ 
+    .phone {
+     width: 380px;
+     height: 300px;
+        background:url(./img/hero-2.jpeg); 
+         border-radius: 15%;
+        
+    }
+    
+
+    .home-left{
+     
+        margin-left:10px ;
+        
+    }
+    .home-left span{
+        margin-left: 20px;
+    }
+    .home-left p{
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 24px;
+    width: 450px;
+    /* or 161% */
+    
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+    }
+    .home-crisis img{
+        width: 400px;
+        margin-top: -230px;
+        
+    }
+    .welcome-crisis img{
+        width: 340px;
+        margin-top: -370px;
+        margin-bottom:-100px ;
+        
+        
+    }
+    .welcome-crisis-2 img{
+        width: 340px;
+        margin-top: -370px;
+        margin-bottom:-100px ;
+        visibility: hidden;
+        
+    }
+
+    .home-right img{
+width: 530px;
+
+margin-top: 10px;
+margin-bottom: 5px;
+background-size:contain;
+background-repeat: no-repeat;
+border-radius: 10%;
+    }
+    .home-left button{
+        font-size: 16px;
+    }
+    .product-crisis img{
+width: 400px;
+        margin-top: -120px;
+        transform: rotate(-21.99deg);
+    }
+    .welcome-crisis-down img{
+        width: 340px;
+        margin-top: -200px;
+        margin-bottom:-190px ;
+        
+        
+    }
+    .product-crisis-down img{
+        width: 210px;
+        margin-top: -140px;
+        margin-bottom:-100px ;
+        transform: rotate(36.52deg);
+        
+        
+    }
+    .bus{
+        margin-left:240px ;
+    }
+
+}
+
+/* The given screen size or smaller */
+
+/* Extra small devices (portrait phones)*/
+
+@media (max-width: 575px) {
+    .about-side{
+        display: none;
+        }
+        .home-right{
+            display: none;
+        }
+        #l1{
+            color: rgba(255,255,255,.5);
+            font-size: 20px;
+        }
+        #l0{
+            font-size: 20px;
+            color: white;
+        }
+        #l2{
+            
+            font-size: 20px;
+        }
+    
+  .home-left p{
+    padding-top: 200px;
+  }
+        #about-phone{
+            display: block;
+            background:url(./img/Rectangle\ 97.png);
+           
+            min-height: 400px; background-size: cover;
+            background-repeat: no-repeat;
+            padding-top: 0;
+        }
+    
+    
+        .contain{
+            
+            padding-top: 10px;
+        }
+  
+    .contact-crisis-down-bottom img{
+        width: 110px;
+       margin-bottom: -80px;
+       margin-top: -50px;
+       display: none;
+
+    } 
+    .product-crisis-down-btw-1 img{
+        display: block;
+        width: 120px;
+        
+        margin-top: -20px;
+        margin-bottom: -100px;
+        margin-left:232px ;
+    }
+    .product-crisis-down-btw-2 img{
+        display: block;
+        width: 150px;
+        margin-top: -40px;
+        margin-bottom: -120px;
+        
+    
+      
+    }
+    .contact-crisis-down-bottom-1 img{
+        width: 80px;
+       margin-bottom: -60px;
+       margin-top: -50px;
+       display: block;
+       
+    
+      
+
+    } 
+.home-left span{
+    margin-left: 10px;
+}
+    #footer li{
+        font-size: 14px;
+    }
+    #footer li a{
+        font-size: 15px;
+    }
+    #contact{
+        background: #0A70FE;
+        border-radius: 10px;
+        margin: 35px;
+        padding: 20px;
+    }
+    #contact h3{
+      
+font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 24px;
+
+color: #121212;
+    }
+
+    .card{
+        border-bottom: 8px solid yellow;
+    }
+    .product-crisis-down-bottom img{
+        transform: rotate(36.52deg);
+        width: 130px;
+        margin-top: -160px;
+         /*background: white;*/
+         
+        display: none;
+      
+    }
+    .product-crisis-down-bottom-2 img{
+        transform: rotate(36.52deg);
+        width: 100px;
+        margin-top: -180px;
+        margin-right: 45px;
+         /*background: white;*/
+         
+    
+      
+    }
+    .welcome-crisis-mobile img{
+        width: 50px;
+        display: block;
+visibility:visible;
+       /*background: white;*/
+       
+      
+        
+    }
+    .product-crisis-down-1 img{
+        width: 80px;
+        margin-top: 10px;
+        margin-bottom: -100px;
+        display: block;
+        
+    }
+    .welcome-crisis-mobile-2 img{
+        width: 70px;
+        height: 100px;
+        margin-top: -5px;
+     margin-left: 270px;
+     display: block;
+     visibility:visible;
+     
+     
+      
+        /*background: white;*/
+        
+    }
+    .welcome-crisis img{
+        display: none;
+        
+    }
+    .welcome h5{
+        margin-top: -120px;
+        font-size: 30px;
+        font-weight: 900;
+    }
+    .welcome-crisis-down img{
+        width: 140px;
+        margin-top: -30px;
+        margin-bottom:-190px ;
+        
+        
+    }
+
+            .welcome-crisis-2 img{
+                visibility: hidden;
+                display: none;
+            }
+            .product-crisis-down img{
+                width: 120px;
+
+                margin-bottom: -100px;
+                
+            }
+            #footer h4{
+                font-size: 16px;
+            }.contain {
+                margin-top:-70px ;
+            }
+            .footer-cmpt-icon{
+                margin-top: -250px;
+                margin-left:200px ;
+                font-size:10px ;
+                
+            } 
+            .welcome{
+                padding: 10px;
+                padding-top:30px ;
+                
+             
+            }
+           
+        
+     
+                  .footer-cmpt-icon img{
+                    width:55px ;}
+                    .footer-cmpt-icon img{
+          width:130px ;
+                    }
+                    #navbarCollapse{
+                        min-height:900px;
+                    margin-top: -140px;
+                    padding-top: 160px;
+                    overflow:auto;
+                    margin-left: -30px;
+                    margin-right: -16px;
+                    }
+                    #close{
+                    color: white;
+                    
+                    margin: 20px;
+                    font-size: 30px;
+                    }
+                 
+                    #clo{
+                        background:transparent;  
+                    top: 0;
+                    right: 0;
+                    position: absolute;
+                        
+                    }
+                    .navbar-brand {
+                        margin-left: -40px;
+                        margin-top: -8px;
+                        }
+                        #wq{
+                            color: rgba(255,255,255,.5);
+                        }
+                        nav{
+                            height: 100px;
+                        }
+
+                        
+                        .bottie{
+                            font-size: 12px;
+                            padding: 3px;
+                        }
+                        .carousel-item h2{
+                            font-size: 15px;
+                        }
+                      .home-right img{
+                          display: none;
+                      }
+                     
+          
+                }
+              
+
+.footer-cmpt-icon{
+    
+    font-size:20px ;
+    
+} 
+
+/* Small devices (landscape phones)*/
+
+@media (max-width: 767px) {
+
+}
+
+/* Medium devices (tablets)*/
+
+@media (max-width: 991px) {
+
+}
+
+/* Large devices (desktops)*/
+
+@media (max-width: 1199px) {
+
+}
+

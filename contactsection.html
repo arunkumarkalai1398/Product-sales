@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+crossorigin="anonymous">
+<link rel="stylesheet" href="./style.css">
+<link rel="icon" href="./img/Mask Group.png" type="image/x-icon">
+<script src="https://use.fontawesome.com/e38d082f77.js"></script>
+<title>Airmaxx-contact</title>
+</head>
+<style>
+.contact-left .contact-right{
+width: 100%;
+height: 100%;
+}
+.contact-right{
+background: #0A70FE; 
+}
+.contact-left{
+background:url(./img/Rectangle\ 96.png);
+background-size: cover;
+background-repeat: no-repeat;
+min-height:753px ;
+}
+</style>
+<link
+rel="stylesheet"
+href="./fontawesome-free-5.12.1-web/css/all.min.css" />
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<body>   
+     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top   mt-0"  id="main-nav">
+    <div class="container">
+      <a href="index.html" class="navbar-brand"><img src="./img/company name  1.png" width="220px"/></a>
+      <button class="navbar-toggler "   data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-ico" ><i class="fa fa-bars" style="color:black;" aria-hidden="true"></i></span>
+      </button>
+      <div class="collapse navbar-collapse  text-center" id="navbarCollapse" ">
+        <ul class="navbar-nav  ml-auto text-center">
+          <span class="" id="clo" class="close-btn" id="close-btn" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-cross-icon">
+              <i id="close"class="fas fa-times"></i>
+            </span>
+          </span>
+          <li class="nav-item">
+            <a href="./index.html"  id="l2"  class="nav-link ">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./about.html"  id="l2"  class="nav-link ">About us</a>
+          </li>
+          <li class="nav-item  mx-3 " id="l2" style="font-size: 17px;padding-top: 9px;">
+            <div class="dropdown" style="cursor: pointer;">
+              <span class=" dropdown-toggle "  id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="    color: rgba(213, 226, 230, 0.75);" >
+                Products
+              </span>
+              <div class="dropdown-menu " aria-labelledby="dropdownMenu2">
+                <a href="./AirCooledPackageChiller.html" class="dropdown-item" >Air Cooled Package
+                  Chiller</a>
+                  <a href="./CleanRoomAirConditioning.html" class="dropdown-item" >Clean Room Air Conditioning</a>
+                <a class="dropdown-item" href="./ColdStorage.html">Cold Storage</a>
+                <a href="CoolingTower.html" class="    dropdown-item" >Cooling tower</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item ">
+            <a href="./contactsection.html"  id="l2"  class="nav-link active  ">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+        <section  >
+
+            <div class="row no-gutters" >
+              <article class="col-sm col-md no-gutters contact-left">
+              </article>
+                <article class="col-sm col-md-7 col-lg-6 no-gutters contact-right text-white  pt-1"  id="contact-phone-bg">
+                    <div id="con">
+                        <div  class="form container pt-3  text-white">
+              <form action="" action="post">
+                        <h3 class="text-center  py-4 text-uppercase text-dark mt-3 font-weight-bold"> Contact Us</h3>
+    
+                        <article class="row">
+                      
+                            <div class="col-sm form-group ">
+                                <label>Name</label>
+                               <input type="text" class="form-control name text-white bg-transparent" id="names"/>
+                        </div>
+                        <div class="col-sm form-group ">
+                            <label>Company Name</label>
+                            <input type="text" placeholder="" class="form-control text-white bg-transparent" id="COMPANY-NAME" />
+                     </div>
+                        </article>
+                        <article class="row">
+                         
+                            <div class="col-sm form-group">
+                                <label>E-mail</label>
+                                <input type="email" placeholder="" class="form-control text-white bg-transparent" id="email"/>
+                         </div>
+                         <div class="col-sm form-group">
+                            <label>Mobile number</label>
+                            <input type="text"placeholder="" class="form-control text-white bg-transparent"   id="phone"/>
+                     </div>
+                        </article>
+                        <article class="row">
+                            <div class="col-sm form-group">
+                                <label>Company's Address</label>
+                                <input type="text" placeholder=""id="company-address" class="form-control text-white bg-transparent" />
+                         </div>
+                      
+                        </article>
+                        <article class="text-center mt-3">
+                      
+        <input type="button" class="btn btn-warning font-weight-bold mb-3 submit px-5" value="SEND" onclick="validateForm()" />
+                    </article>
+                  </form>
+                    </div>
+                
+                  </div>
+                </article>
+            </>
+        </article>
+    </div>
+    </section>
+
+    </form>
+</body>
+<script type="text/javascript">
+let companyname=document.querySelector('#COMPANY-NAME');
+let companyadd=document.querySelector('#company-address');
+let conat=document.querySelector('.name');
+
+
+ function validateName() {
+            var name = document.getElementById('names').value;
+            if(name.length == 0 && companyname.length==0 && companyadd.length==0) {
+              alert("Name can't be blank") ;
+              return false;
+
+            }
+            if (!name.match(/^[a-zA-Z]{3,}(?: [a-zA-Z]+){0,2}$/)) {
+              alert("Please enter your correct name") ;//Validation Message
+              return false;
+            }
+            return true;
+          }
+
+          function validatePhone() {
+            var phone = document.getElementById('phone').value;
+            if(phone.length == 0) {
+              alert("Phone number can't be blank") ;//Validation Message
+              return false;
+            }
+
+            if(!phone.match(/^[0]?[789]\d{9}$/)) {
+             alert("Please enter a correct phone number") ;//Validation Message
+             return false;
+           }
+
+           return true;
+
+         }
+
+         function validateEmail () {
+
+          var email = document.getElementById('email').value;
+          if(email.length == 0) {
+            alert("Email can't be blank") ;//Validation Message
+            return false;
+
+          }
+
+          if(!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+            alert("Please enter a correct email address") ;//Validation Message
+            return false;
+
+          }
+
+          return true;
+
+        }
+
+
+        function validateForm() {
+          if (!validateName() || !validatePhone() || !validateEmail()) {
+
+            alert("Form not submitted");//Validation Message
+            return false;
+          }
+          else {
+            submitted=true;
+            console.log("load");
+            send();
+            conat.value="";
+        phone.value="";
+        email.value="";
+        companyname.value="";
+    companyadd.value="";
+        
+            return true;
+          }
+        }
+    
+function send(){
+
+Email.send({
+    SecureToken :"805ffe77-8e14-462e-b159-fbd6e0787322" ,
+    To : "arunkalaimani1398@gmail.com",
+    From : `${email.value}`,
+    Subject : "New Form Submitted",
+    Body : `
+    <ul>
+        <p>Name:${conat.value}</p>
+        <p> call us:${phone.value}</p>
+        <p>Email us:${email.value}</p>
+        <p>Companyname:${companyname.value}</p>
+        <p>Companyaddress:${companyadd.value}</p>
+        </ul>
+    `
+}).then(
+  message => alert("Thank you for contact us")
+); 
+/*
+Email.send({
+    Host : "smtp.gmail.com",
+    port:587,
+    Username : "tutscol07@gmail.com",
+    Password : "tharique",
+    To : 'arunrio1398@gmail.com',
+    From : "tutscol07@gmail.com",
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);*/
+
+}
+        
+
+</script>
+<script src="./js/app.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+crossorigin="anonymous"></script>
+<script>
+  const $dropdown = $(".dropdown");
+  const $dropdownToggle = $(".dropdown-toggle");
+  const $dropdownMenu = $(".dropdown-menu");
+  const showClass = "show";
+  
+  $(window).on("load resize", function() {
+  if (this.matchMedia("(min-width: 768px)").matches) {
+  $dropdown.hover(
+    function() {
+      const $this = $(this);
+      $this.addClass(showClass);
+      $this.find($dropdownToggle).attr("aria-expanded", "true");
+      $this.find($dropdownMenu).addClass(showClass);
+    },
+    function() {
+      const $this = $(this);
+      $this.removeClass(showClass);
+      $this.find($dropdownToggle).attr("aria-expanded", "false");
+      $this.find($dropdownMenu).removeClass(showClass);
+    }
+  );
+  } else {
+  $dropdown.off("mouseenter mouseleave");
+  }
+  });
+  $(window).scroll(function(){
+        $('nav').toggleClass('scrolled',$(this).scrollTop()>50);
+    })
+
+  </script>
+</html>

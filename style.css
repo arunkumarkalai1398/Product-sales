@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: Montserrat;
+
+}
+.bg-dark{
+    background: transparent !important;
+}
+.bg-dark.scrolled {
+    background: white !important;
+}
+.fa fa-bars{
+    font-size: 10px;
+}
+#l1{
+    color: rgba(33, 34, 34, 0.75);
+    font-size: 17px;
+}
+#l0{
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
+#l2{
+    font-size:17px ;
+   
+}
+.navbar-brand {
+    margin-left: 0px;
+    }
+#col{
+    display: none;
+    background: transparent;
+}
+#navbarCollapse{
+
+}
+#close{
+color: white;
+display: none;
+margin: 20px;
+font-size: 30px;
+}
+#clo{
+    background:transparent;  
+top: 0;
+right: 0;
+position: absolute;;
+
+}
+.home{ 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    /* or 161% */
+    
+    text-transform: uppercase;
+    
+    color: #000000;
+    
+    
+}
+
+.home-left{
+    font-size: 20px;
+    
+}
+.home{
+    padding-top: 200px;
+}
+
+.welcome{
+    border-radius: 0px 0px 0px 0px;
+    font-size: 14px;
+    background: #0A70FE;
+    
+}
+.home-rightimg{
+    width: 330px;
+}
+@media  screen and (min-width: 700px) {
+    .home-rightimg{
+        width: 100%;
+    }
+    .contact-right{
+        padding: 10px;
+    }
+    .carousel-item img{
+        width: 500px;
+        height: 400px;
+        margin-left: 310px;
+    padding-bottom: 50px;
+    padding-top: 100px;
+    }
+  
+}
+@media  screen and (min-width: 1400px) {
+    .welcome{
+        width: 1330px;
+        border-radius: 0px 60px 60px 0px;
+    }
+    .home-rightimg{
+        margin-top:-60px ;
+        width: 780px;
+height: 438px;
+    }
+
+}
+#contact{
+    background: #0A70FE;
+    border-radius: 35px 0px 0px 35px;
+    margin-left: 110px;
+}
+#footer{
+    background: #0A70FE;
+}
+#about{
+    background: #0A70FE; 
+    
+}
+/* .about-img{
+    width: fit-content;
+} */
+
+.contain{
+   padding-top: 150px;
+}
+/* .about-side{
+    background:url(./img/Rectangle\ 90.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 720px;
+      
+}  */
+
+#con{
+    background: #0A70FE;  
+    
+    padding:40px;
+    padding-bottom: 0px;
+    padding-top: 40px; 
+    min-height: 713px;
+}
+i{
+    font-size: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#about-phone{
+    display: none;
+}
+@media screen and (max-width:600px){
+.about-side{
+display: none;
+}
+.navbar{
+    height: 90px;
+    
+}
+.bin{
+    color: #f1f1f1;
+}
+.navbar-brand{
+    margin-top: -10px;
+}
+.carousel-item img{
+    width: 180px;
+    height: 400px;
+    margin-left: 80px;
+padding-bottom: 50px;
+padding-top: 100px;
+}
+#l2{
+    font-size: 20px;
+}
+#l1{
+    color: rgba(255,255,255,.5);
+    font-size: 20px;
+}
+#l0{
+    font-size: 20px;
+    color: white;
+}
+#l2{
+    
+    font-size: 20px;
+}
+#navbarCollapse{
+    min-height: 700px;
+margin-top: -140px;
+padding-top: 160px;
+overflow:auto;
+margin-left: -30px;
+margin-right: -16px;
+background: #0A70FE;
+}
+.navbar-brand {
+margin-left: -40px;
+}
+#close{
+color: white;
+display: block;
+
+margin: 20px;
+font-size: 30px;
+}
+#clo{
+cursor: pointer;    background:transparent;  
+top: 0;
+right: 0;
+display: block;
+position: absolute;;
+
+
+    
+}
+
+#top-pic{
+    display: none;
+}
+#about-phone{
+    display: block;
+    background:url(./img/Rectangle\ 97.png);
+   
+    min-height: 600px; background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 0;
+}
+#about{
+    margin-top: -70px;
+    padding-bottom:40px ;
+}
+.contain{
+    padding-top: 10px;
+}
+.contact-left{
+    display: none;
+}
+#con{
+    margin: 30px;
+    margin-top:120px ;
+    padding-top: 0;
+    border-radius: 2%;
+}
+#contact-phone-bg{
+    background: url(./img/Rectangle\ 97.png);
+    min-height: 600px; background-size: cover;
+    background-repeat: no-repeat;
+}
+.cbp{
+    visibility: hidden;
+
+}
+.home-right{
+    display: none;
+}
+.home-left{
+    background: url(./img/Hero\ Image\ Mobile\ View.png);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    min-width: fit-content;
+    font-size: 14px;
+    min-height: 690px;
+    font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+margin-top: -300px;
+padding-top:130px ;
+}
+
+.welcome{
+
+}
+#contact-down{
+    visibility: hidden;
+    display: none;
+}
+.home-left p{
+ padding-right: 50px;
+ padding-left: 10px;
+ padding-top: 200px;
+}
+.home-left button{
+    margin-left: 12px;
+}
+.phone-view{
+    margin-left:-50px ;
+}
+
+.phone{
+    display: none;
+}
+.welcome{
+    font-size: 18px;
+}
+.welcome h5{
+    font-size: 30px;
+    font-family: Montserrat;
+}
+#contact{
+    border-radius: 0px 0px 0px 0px;
+    margin: 20px;
+    border-radius: 2%;
+}
+.card{
+border-bottom: 6px solid yellow;
+}
+.link{
+    color: blue
+}
+.dark-overlay {
+    
+    width: 100%;
+    opacity: 0.8;
+        min-height: 690px;margin-top: -30px;
+    background: rgba(0, 0, 0, 0.7);
+
+  }
+  .bus{
+      margin: 15px;
+  }
+
+}
+#contact h3{
+    color: black;
+    font-weight: bolder;
+}
+.welcome h5{
+    padding-left:14px ;
+    font-size: 26px;
+}
+.btn{
+    margin-left: 15px;
+}
+#contact{
+    margin-top:0px ;
+}
+
+.cbp{
+    margin-top:-150px;
+
+}
+
+#top-pic{
+    visibility: hidden;
+}
+
+/* Small devices (landscape phones) */
+
+/* @media (min-width: 576px) {
+    body {
+        background: red;
+    }
+}
+
+/* Medium devices (tablets) */
