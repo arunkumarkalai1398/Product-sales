@@ -1,0 +1,24 @@
+TODO(Things needs to be done today):
+
+4/1 - GO through GIT
+install:
+java 11
+eclipse ide
+git 
+four t client vpn
+
+
+mail.zoho
+4^uBwjkV
+
+sudo apt-get install openjdk-11-jdk
+eclipse ide : 
+1. sudo snap install --classic eclipse
+2. sudo apt install default-jre
+ubuntu version - lsb_release -a
+
+
+git:
+ -> sudo apt install git
+ -> git --version
+ 
